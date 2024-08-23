@@ -1,0 +1,101 @@
+.nav-item {
+  text-align: center;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.devicon-linkedin-plain,
+.devicon-github-original {
+  font-size: 2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.devicon-linkedin-plain:hover,
+.devicon-github-original:hover {
+  color: #32fbe2;
+}
+
+.link-anchor {
+  color: white;
+  text-decoration: none;
+}
+
+.rotate {
+  display: inline-block;
+  font-size: 4rem;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.palindrome-input {
+  display: inline-block;
+}
+
+#inputText {
+  font-size: 1.25rem;
+}
+
+.btn-light {
+  height: 40px;
+  width: 100px;
+  padding: 8px;
+  margin-bottom: 6px;
+}
+
+.what-is {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.definition,
+.explanation {
+  font-size: 1.15rem;
+}
+
+.try-the-app {
+  font-size: 1.25rem;
+}
+
+.ensologo {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#palindromeModal {
+  animation: zoomIn 0.3s ease-out;
+}
+
+.checker-modal {
+  width: 600px;
+}
+
+.app-footer {
+  margin-top: 50px;
+}
