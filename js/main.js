@@ -1,3 +1,5 @@
+const jsConfetti = new JSConfetti();
+
 function handleModal(event) {
   event.preventDefault();
 
@@ -45,6 +47,7 @@ function checkForPalindrome(userInput) {
     modalTitle.innerText = "Congrats! That is a palindrome!";
 
     palindromeResult.innerText = `${filteredInput} is ${reversed} backwards!`;
+    jsConfetti.addConfetti();
   } else {
     modalTitle.innerText = "Sorry! That is not a palindrome!";
 
